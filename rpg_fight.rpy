@@ -20,7 +20,7 @@ init python:
 
 label class_sample:
     $ p1 = fighter("Player 1")
-    $ p1 = fighter("Player 2", 2, 12, 12, 8, 8)
+    $ p2 = fighter("Player 2", 2, 12, 12, 8, 8)
     $ skeleton = fighter("Halberd Skeleton", 1, 12, 12, 0, 0)
     $ skeleton_fire = fighter("Fire Skeleton", 1, 12, 12, 0, 0, 0, "Fire", "Fire")
     $ skeleton_water = fighter("Water Skeleton", 1, 12, 12, 0, 0, 0, "Water", "Water")
